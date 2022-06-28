@@ -1,0 +1,117 @@
+    header nav {
+        box-shadow: 0px 0px 10px rgb(78, 73, 73);
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header nav a {
+        text-decoration: none;
+        font-family: cursive;
+        color: darkslategray;
+        margin: 0px 15px;
+        font-size: 20px;
+    }
+    
+    header nav a:hover {
+        text-decoration: underline;
+    }
+    
+    .feature {
+        display: flex;
+    }
+    
+    .feature img {
+        width: 500px;
+    }
+    
+    .feature p {
+        font-family: cursive;
+        color: rgb(54, 59, 59);
+        font-size: 20px;
+        padding: 100px;
+    }
+    
+    body {
+        margin: 0px;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        text-align: center;
+        max-width: 400px;
+        margin: 0px auto;
+        box-shadow: 0px 0px 10px rgb(78, 73, 73);
+        border-radius: 10px;
+        padding: 20px;
+        transition-duration: 1s;
+        transition-delay: .3s;
+    }
+    
+    .card:hover {
+        transform: rotateY(180deg);
+        opacity: 60%;
+    }
+    
+    .card .fa {
+        display: none;
+    }
+    
+    .card:hover .fa {
+        display: block;
+        transform: rotateY(180deg);
+    }
+    
+    .card:hover .en {
+        display: none;
+    }
+    
+    .card img {
+        width: 300px;
+        border-radius: 20%;
+    }
+    
+    .card h1 {
+        font-family: cursive;
+        font-size: 30px;
+    }
+    
+    .card p {
+        font-family: cursive;
+        font-size: 20px;
+    }
+    
+    .shorts {
+        font-family: cursive;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .shorts .short {
+        display: flex;
+        box-shadow: 0px 0px 10px rgb(78, 73, 73);
+        margin: 15px;
+        border-radius: 20px;
+    }
+    
+    .shorts .short img {
+        width: 200px;
+        border-bottom-right-radius: 80%;
+        transition-duration: .5s;
+    }
+    
+    .shorts .short img:hover {
+        border-bottom-right-radius: 0px;
+    }
+    
+    footer {
+        color: white;
+        background-color: rgb(64, 60, 60);
+        font-family: cursive;
+        text-align: center;
+        padding: 15px;
+    }
