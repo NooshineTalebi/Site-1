@@ -102,6 +102,7 @@
         width: 200px;
         border-bottom-right-radius: 80%;
         transition-duration: .5s;
+        margin-right: 0.5rem;
     }
     
     .shorts .short img:hover {
